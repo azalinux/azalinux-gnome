@@ -116,9 +116,7 @@ sudo pacman -S --noconfirm --needed breeze-icons
 sudo pacman -S --noconfirm --needed elementary-icon-theme
 sudo pacman -S --noconfirm --needed adapta-gtk-theme
 
-
-#sh sddm.sh
-sh wallpaper.sh
+#sh wallpaper.sh
 
 sh samba_install.sh
 
@@ -136,7 +134,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
 
-sh gnome_custom_desktop.sh
+#sh gnome_custom_desktop.sh
 
 #sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
