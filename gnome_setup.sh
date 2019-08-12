@@ -14,9 +14,8 @@ sudo systemctl enable sshd
 sudo pacman -S --noconfirm --needed dhcpcd
 
 
-sudo pacman -S xfce4 xfce4-goodies --noconfirm --needed
-sudo pacman -S --noconfirm --needed xfce4-notifyd
-sudo pacman -S --noconfirm --needed xorg
+sudo pacman -S --noconfirm --needed gnome gnome-extra
+#sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
 
@@ -41,8 +40,7 @@ sudo pacman -S pavucontrol  --noconfirm --needed
 sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --needed
 sudo pacman -S gstreamer --noconfirm --needed
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
-sudo pacman -S volumeicon --noconfirm --needed
-sudo pacman -S playerctl --noconfirm --needed
+
 
 sudo pacman -S --noconfirm --needed cups cups-pdf
 sudo pacman -S ghostscript gsfonts gutenprint --noconfirm --needed
@@ -55,10 +53,27 @@ sudo systemctl enable org.cups.cupsd.service
 
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed accountsservice
+sudo pacman -S --noconfirm --needed dconf-editor
+
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-keyring
+sudo pacman -S --noconfirm --needed gnome-system-monitor
+sudo pacman -S --noconfirm --needed gnome-tweak-tool
+sudo pacman -S --noconfirm --needed gtk-engine-murrine
+sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
+sudo pacman -S --noconfirm --needed kvantum-qt5
+sudo pacman -S --noconfirm --needed kvantum-theme-arc
+sudo pacman -S --noconfirm --needed lsb-release
+sudo pacman -S --noconfirm --needed mlocate
+sudo pacman -S --noconfirm --needed polkit-gnome
+sudo pacman -S --noconfirm --needed qt5ct
+sudo pacman -S --noconfirm --needed sane
+sudo pacman -S --noconfirm --needed sysstat
+sudo pacman -S --noconfirm --needed screenfetch
+sudo pacman -S --noconfirm --needed nautilus-image-converter
 
+sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed glances
@@ -70,7 +85,12 @@ sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed gimp
+
+sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed grub-customizer 
+sudo pacman -S --noconfirm --needed inkscape
+sudo pacman -S --noconfirm --needed nomacs
+sudo pacman -S --noconfirm --needed ristretto
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
@@ -90,6 +110,7 @@ sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed mpv
+sudo pacman -S --noconfirm --needed arc-gtk-theme
 sudo pacman -S --noconfirm --needed deepin-icon-theme
 sudo pacman -S --noconfirm --needed breeze-icons
 sudo pacman -S --noconfirm --needed elementary-icon-theme
@@ -116,7 +137,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
 
-sh xfce_custom_desktop.sh
+sh gnome_custom_desktop.sh
 
 #sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
