@@ -116,6 +116,8 @@ sudo pacman -S --noconfirm --needed breeze-icons
 sudo pacman -S --noconfirm --needed elementary-icon-theme
 sudo pacman -S --noconfirm --needed adapta-gtk-theme
 
+sudo pacman -R --noconfirm epiphany
+
 #sh wallpaper.sh
 
 sh samba_install.sh
@@ -126,13 +128,14 @@ sh lightdm.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
 trizen -S --noconfirm --needed --noedit flat-remix
-trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
+#trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
 trizen -S --noconfirm --needed --noedit vivaldi
 #trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
 trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
+trizen -S --noconfirm --needed --noedit gnome-shell-extension-dash-to-panel
 
 #sh gnome_custom_desktop.sh
 
