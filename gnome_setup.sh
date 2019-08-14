@@ -86,6 +86,7 @@ sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed gimp
 
+
 sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed inkscape
@@ -127,6 +128,7 @@ sh trizen.sh
 sh lightdm.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
+trizen -S --noconfirm --needed --noedit ocs-url
 #trizen -S --noconfirm --needed --noedit flat-remix
 #trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
 trizen -S --noconfirm --needed --noedit vivaldi
