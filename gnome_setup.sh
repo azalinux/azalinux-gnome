@@ -90,7 +90,7 @@ sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed inkscape
 sudo pacman -S --noconfirm --needed nomacs
-sudo pacman -S --noconfirm --needed ristretto
+#sudo pacman -S --noconfirm --needed ristretto
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
@@ -118,7 +118,7 @@ sudo pacman -S --noconfirm --needed adapta-gtk-theme
 
 sudo pacman -R --noconfirm epiphany
 
-#sh wallpaper.sh
+sh wallpaper.sh
 
 sh samba_install.sh
 
@@ -127,7 +127,7 @@ sh trizen.sh
 sh lightdm.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
-trizen -S --noconfirm --needed --noedit flat-remix
+#trizen -S --noconfirm --needed --noedit flat-remix
 #trizen -S --noconfirm --needed --noedit starlabstheme-gtk-git
 trizen -S --noconfirm --needed --noedit vivaldi
 #trizen -S --noconfirm --needed --noedit vivaldi-codecs-ffmpeg-extra-bin
@@ -137,10 +137,10 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 trizen -S --noconfirm --needed --noedit inxi-git
 trizen -S --noconfirm --needed --noedit gnome-shell-extension-dash-to-panel
 
-#sh gnome_custom_desktop.sh
+sh gnome_custom_desktop.sh
 
 #sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
 sudo systemctl enable vncserver-x11-serviced
 
-#sudo systemctl enable NetworkManager
+sudo systemctl enable NetworkManager
