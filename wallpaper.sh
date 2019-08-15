@@ -3,4 +3,4 @@ set -e
 
 sudo wget -i wallpaper.txt
 
-sudo mv *.png /usr/share/backgrounds/gnome
+sudo mv *.png /home/aza/Pictures
