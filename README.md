@@ -1,6 +1,6 @@
 # azalinux-gnome
 Gnome Desktop for Azalinux
 
-dconf dump / > dconf-settings.ini
+dconf dump / > skel_settings
 
-dconf load / < dconf-settings.ini
+dconf load / < skel_settings
