@@ -82,7 +82,7 @@ sudo pacman -S --noconfirm --needed sane
 sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed nautilus-image-converter
-
+sudo pacman -S --noconfirm --needed ipset
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dmidecode
