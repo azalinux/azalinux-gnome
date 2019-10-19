@@ -154,7 +154,7 @@ trizen -S --noconfirm --needed --noedit gnome-shell-extension-dash-to-panel
 
 sh gnome_custom_desktop.sh
 
-#sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+#sudo /usr/bin/vnclicense -add P98BK-34AF4-V2K63-TMBH8-BYNRA
 
 sudo systemctl enable vncserver-x11-serviced
 
