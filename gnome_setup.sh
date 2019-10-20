@@ -95,6 +95,7 @@ sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed gimp
+sudo pacman -S --noconfirm --needed p7zip
 
 
 sudo pacman -S --noconfirm --needed gnome-font-viewer
