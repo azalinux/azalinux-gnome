@@ -73,7 +73,7 @@ sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
 sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
 sudo pacman -S --noconfirm --needed kvantum-qt5
-sudo pacman -S --noconfirm --needed kvantum-theme-arc
+#sudo pacman -S --noconfirm --needed kvantum-theme-arc
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed mlocate
 sudo pacman -S --noconfirm --needed polkit-gnome
@@ -139,7 +139,7 @@ sh trizen.sh
 sh lightdm.sh
 
 echo "### Installing Vivaldi Snapshot ###"
-sh install-vivaldi.sh
+#sh install-vivaldi.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur-git
 trizen -S --noconfirm --needed --noedit ocs-url
