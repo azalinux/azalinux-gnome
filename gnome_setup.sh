@@ -14,10 +14,10 @@ sudo systemctl enable sshd
 sudo pacman -S --noconfirm --needed dhcpcd
 
 
-sudo pacman -S --noconfirm --needed gnome gnome-extra
+sudo pacman -S --noconfirm --needed gnome gnome-extra xorg-server-xwayland
 #sudo pacman -S --noconfirm --needed xorg
-sudo pacman -S --noconfirm --needed xf86-video-amdgpu
-sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
+#sudo pacman -S --noconfirm --needed xf86-video-amdgpu
+#sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
 
 sudo pacman -S --noconfirm --needed firewalld
 
@@ -136,7 +136,7 @@ sh samba_install.sh
 
 sh trizen.sh
 
-sh lightdm.sh
+#sh lightdm.sh
 
 echo "### Installing Vivaldi Snapshot ###"
 #sh install-vivaldi.sh
