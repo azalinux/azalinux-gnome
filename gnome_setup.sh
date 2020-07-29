@@ -160,3 +160,5 @@ trizen -S --noconfirm --needed --noedit inxi-git
 sudo systemctl enable vncserver-x11-serviced
 
 sudo systemctl enable NetworkManager
+
+sudo systemctl enable gdm
