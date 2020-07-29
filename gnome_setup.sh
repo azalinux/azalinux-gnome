@@ -151,9 +151,9 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
-trizen -S --noconfirm --needed --noedit gnome-shell-extension-dash-to-panel
+#trizen -S --noconfirm --needed --noedit gnome-shell-extension-dash-to-panel
 
-sh gnome_custom_desktop.sh
+#sh gnome_custom_desktop.sh
 
 #sudo /usr/bin/vnclicense -add P98BK-34AF4-V2K63-TMBH8-BYNRA
 
