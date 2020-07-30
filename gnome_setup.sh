@@ -65,6 +65,8 @@ sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed accountsservice
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed nano
+sudo pacman -S --noconfirm --needed traceroute
+
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-keyring
