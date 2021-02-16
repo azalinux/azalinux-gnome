@@ -37,8 +37,18 @@ pacman -S --noconfirm --needed xdg-user-dirs
 pacman -S --noconfirm --needed grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
-pacman -S --noconfirm --needed base-devel
-pacman -S --noconfirm --needed vim
+
+## OR EFI ###
+#pacman -S efibootmgr
+#!!!! FOR UEFI create /efi partition - FAT32 - 512Mb
+#mkfs.fat -F32 /dev/sdb1
+#!! You have to mount the EFI partition then create the 'efi' directory on it!
+#mkdir /efi
+#mount /dev/sda1 /efi
+#grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB  #!!!!#
+
+
+pacman -S --noconfirm --needed vi
 # visudo [uncomment "Wheel root access"] (to save type: :wq )
 echo " visudo is about to run - uncomment the 'wheel root access' then type ':wq' to save and exit :)"
 sleep 3
