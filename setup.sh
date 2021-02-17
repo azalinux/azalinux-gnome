@@ -53,6 +53,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 pacman -S --noconfirm --needed vi
+pacman -S --noconfirm --needed vim
+
 # visudo [uncomment "Wheel root access"] (to save type: :wq )
 echo " visudo is about to run - uncomment the 'wheel root access' then type ':wq' to save and exit :)"
 sleep 3
