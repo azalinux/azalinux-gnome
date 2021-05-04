@@ -132,7 +132,7 @@ sudo pacman -S --noconfirm --needed adapta-gtk-theme
 
 sudo pacman -R --noconfirm epiphany
 
-sh wallpaper.sh
+#sh wallpaper.sh
 
 sh samba_install.sh
 
