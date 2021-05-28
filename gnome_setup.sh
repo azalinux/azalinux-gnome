@@ -19,8 +19,7 @@ sudo pacman -S --noconfirm --needed gnome gnome-extra xorg-server-xwayland
 #sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 #sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
 
-sudo pacman -S --noconfirm --needed firewalld
-
+sudo pacman -S firewalld --noconfirm --needed
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
 sudo pacman -S noto-fonts --noconfirm --needed
