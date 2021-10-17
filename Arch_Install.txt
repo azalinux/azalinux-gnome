@@ -4,6 +4,7 @@ ARCH 2019 install commands:
 # timedatectl set-ntp true
 # timedatectl status
 # cfdisk
+##FOR EFI - mkfs.fat -F32 /dev/sdb1
 # mkfs.ext4 /dev/sda1
 # mkswap /dev/sda2 
 # swapon /dev/sda2
