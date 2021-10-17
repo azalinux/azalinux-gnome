@@ -143,6 +143,7 @@ echo "### Installing Vivaldi Snapshot ###"
 #sh install-vivaldi.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur-git
+trizen -S --noconfirm --needed --noedit gnome-shell-extension-dash-to-panel-git
 trizen -S --noconfirm --needed --noedit ocs-url
 #trizen -S --noconfirm --needed --noedit flat-remix
 #trizen -S --noconfirm --needed --noedit google-chrome-dev
