@@ -45,7 +45,7 @@ pacman -S --noconfirm --needed efibootmgr
 ## OR EFI ###
 pacman -S efibootmgr
 #!!!! FOR UEFI create /efi partition - FAT32 - 512Mb
-mkfs.fat -F32 /dev/sda1
+#mkfs.fat -F32 /dev/sda1
 #!! You have to mount the EFI partition then create the 'efi' directory on it!
 mkdir /efi
 mount /dev/sda1 /efi
