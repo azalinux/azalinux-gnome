@@ -43,7 +43,7 @@ pacman -S --noconfirm --needed efibootmgr
 #grub-mkconfig -o /boot/grub/grub.cfg
 
 ## OR EFI ###
-pacman -S efibootmgr
+#pacman -S efibootmgr
 #!!!! FOR UEFI create /efi partition - FAT32 - 512Mb
 #mkfs.fat -F32 /dev/sda1
 #!! You have to mount the EFI partition then create the 'efi' directory on it!
