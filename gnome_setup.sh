@@ -19,26 +19,26 @@ sudo pacman -S --noconfirm --needed gnome gnome-extra xorg-server-xwayland
 #sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 #sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
 
-sudo pacman -S firewalld --noconfirm --needed
-sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
-sudo pacman -S cantarell-fonts --noconfirm --needed
-sudo pacman -S noto-fonts --noconfirm --needed
-sudo pacman -S terminus-font --noconfirm --needed
-sudo pacman -S ttf-bitstream-vera --noconfirm --needed
-sudo pacman -S ttf-dejavu --noconfirm --needed
-sudo pacman -S ttf-droid --noconfirm --needed
-sudo pacman -S ttf-inconsolata --noconfirm --needed
-sudo pacman -S ttf-liberation --noconfirm --needed
-sudo pacman -S ttf-roboto --noconfirm --needed
-sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
-sudo pacman -S tamsyn-font --noconfirm --needed
+sudo pacman -S --noconfirm --needed firewalld
+sudo pacman -S --noconfirm --needed adobe-source-sans-pro-fonts
+sudo pacman -S --noconfirm --needed cantarell-fonts
+sudo pacman -S --noconfirm --needed noto-fonts
+sudo pacman -S --noconfirm --needed terminus-font
+sudo pacman -S --noconfirm --needed ttf-bitstream-vera
+sudo pacman -S --noconfirm --needed ttf-dejavu
+sudo pacman -S --noconfirm --needed ttf-droid
+sudo pacman -S --noconfirm --needed ttf-inconsolata
+sudo pacman -S --noconfirm --needed ttf-liberation
+sudo pacman -S --noconfirm --needed ttf-roboto
+sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
+sudo pacman -S --noconfirm --needed tamsyn-font
 
-sudo pacman -S pulseaudio --noconfirm --needed
-sudo pacman -S pulseaudio-alsa --noconfirm --needed
-sudo pacman -S pavucontrol  --noconfirm --needed
-sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --needed
-sudo pacman -S gstreamer --noconfirm --needed
-sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
+sudo pacman -S --noconfirm --needed pulseaudio
+sudo pacman -S --noconfirm --needed pulseaudio-alsa
+sudo pacman -S --noconfirm --needed pavucontrol
+sudo pacman -S --noconfirm --needed alsa-utils alsa-plugins alsa-lib alsa-firmware
+sudo pacman -S --noconfirm --needed gstreamer
+sudo pacman -S --noconfirm --needed gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly
 
 # installing bluetooth software
 sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
@@ -52,11 +52,11 @@ sudo systemctl start bluetooth.service
 
 
 sudo pacman -S --noconfirm --needed cups cups-pdf
-sudo pacman -S ghostscript gsfonts gutenprint --noconfirm --needed
-sudo pacman -S gtk3-print-backends --noconfirm --needed
-sudo pacman -S libcups --noconfirm --needed
-sudo pacman -S hplip --noconfirm --needed
-sudo pacman -S system-config-printer --noconfirm --needed
+sudo pacman -S --noconfirm --needed ghostscript gsfonts gutenprint
+sudo pacman -S --noconfirm --needed gtk3-print-backends
+sudo pacman -S --noconfirm --needed libcups
+sudo pacman -S --noconfirm --needed hplip
+sudo pacman -S --noconfirm --needed system-config-printer
 
 sudo systemctl enable cups.service
 
