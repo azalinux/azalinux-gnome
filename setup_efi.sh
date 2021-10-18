@@ -50,7 +50,7 @@ pacman -S --noconfirm --needed efibootmgr
 mkdir /efi
 mount /dev/sda1 /efi
 grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB  #!!!!#
-
+grub-mkconfig -o /boot/grub/grub.cfg
 
 pacman -S --noconfirm --needed vi
 pacman -S --noconfirm --needed vim
