@@ -17,6 +17,7 @@ sudo pacman -S --noconfirm --needed networkmanager
 sudo pacman -S --noconfirm --needed gnome gnome-extra xorg-server-xwayland
 #sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed mesa
+sudo pacman -S --noconfirm --needed libva-mesa-driver
 sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 #sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
 
