@@ -57,7 +57,6 @@ sudo pacman -S --noconfirm --needed cups cups-pdf
 sudo pacman -S --noconfirm --needed ghostscript gsfonts gutenprint
 sudo pacman -S --noconfirm --needed gtk3-print-backends
 sudo pacman -S --noconfirm --needed libcups
-sudo pacman -S --noconfirm --needed hplip
 sudo pacman -S --noconfirm --needed system-config-printer
 
 sudo systemctl enable cups.service
