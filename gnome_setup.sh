@@ -11,8 +11,6 @@ sudo pacman -S --noconfirm --needed arch-install-scripts
 sudo pacman -S --noconfirm --needed os-prober
 sudo pacman -S --noconfirm --needed openssh
 sudo systemctl enable sshd
-#sudo pacman -S --noconfirm --needed dhcpcd
-sudo pacman -S --noconfirm --needed networkmanager
 
 sudo pacman -S --noconfirm --needed gnome gnome-extra xorg-server-xwayland
 #sudo pacman -S --noconfirm --needed xorg
@@ -139,7 +137,6 @@ sh samba_install.sh
 
 sh trizen.sh
 
-#sh lightdm.sh
 
 echo "### Installing Vivaldi Snapshot ###"
 #sh install-vivaldi.sh
@@ -162,7 +159,5 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #sudo /usr/bin/vnclicense -add P98BK-34AF4-V2K63-TMBH8-BYNRA
 
 sudo systemctl enable vncserver-x11-serviced
-
-sudo systemctl enable NetworkManager
 
 sudo systemctl enable gdm
