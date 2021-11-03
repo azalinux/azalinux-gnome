@@ -153,6 +153,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 #trizen -S --noconfirm --needed --noedit inxi-git
 #trizen -S --noconfirm --needed --noedit gnome-shell-extension-dash-to-panel
+trizen -S --noconfirm --needed --noedit astronciaiptv
 
 #sh gnome_custom_desktop.sh
 
